@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Core", "0-Core", "{C1690190-69A6-49F5-AA38-6B0D613EFD0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Producer", "1-Producer", "{684F5EA0-35A6-4460-AA10-D0CCDD31AC06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Consumer", "2-Consumer", "{A3CB4E23-87B3-4D6D-A9CF-ED499319358E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaPOC.Core", "0-Core\KafkaPOC.Core\KafkaPOC.Core.csproj", "{DBF4990C-DFDC-4D21-9234-1C64F46B5235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaPOC.Producer", "1-Producer\KafkaPOC.Producer\KafkaPOC.Producer.csproj", "{2264E2C7-9269-40FF-8B82-EBD0A8A1489D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaPOC.Consumer", "2-Consumer\KafkaPOC.Consumer\KafkaPOC.Consumer.csproj", "{20593E73-2CE0-43AC-AEE8-CA116A34DD01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBF4990C-DFDC-4D21-9234-1C64F46B5235} = {C1690190-69A6-49F5-AA38-6B0D613EFD0B}
+		{2264E2C7-9269-40FF-8B82-EBD0A8A1489D} = {684F5EA0-35A6-4460-AA10-D0CCDD31AC06}
+		{20593E73-2CE0-43AC-AEE8-CA116A34DD01} = {A3CB4E23-87B3-4D6D-A9CF-ED499319358E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBF4990C-DFDC-4D21-9234-1C64F46B5235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF4990C-DFDC-4D21-9234-1C64F46B5235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF4990C-DFDC-4D21-9234-1C64F46B5235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF4990C-DFDC-4D21-9234-1C64F46B5235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2264E2C7-9269-40FF-8B82-EBD0A8A1489D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2264E2C7-9269-40FF-8B82-EBD0A8A1489D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2264E2C7-9269-40FF-8B82-EBD0A8A1489D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2264E2C7-9269-40FF-8B82-EBD0A8A1489D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20593E73-2CE0-43AC-AEE8-CA116A34DD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20593E73-2CE0-43AC-AEE8-CA116A34DD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20593E73-2CE0-43AC-AEE8-CA116A34DD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20593E73-2CE0-43AC-AEE8-CA116A34DD01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
