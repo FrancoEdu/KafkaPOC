@@ -10,10 +10,7 @@
 *Uma implementação completa de Event-Driven Architecture usando Apache Kafka e .NET Worker Services*
 
 [🎯 Funcionalidades](#-funcionalidades) •
-[🏗️ Arquitetura](#️-arquitetura) •
-[🚀 Quick Start](#-quick-start) •
-[📖 Documentação](#-documentação) •
-[🔧 Configuração](#-configuração)
+[🚀 Quick Start](#-quick-start)
 
 </div>
 
